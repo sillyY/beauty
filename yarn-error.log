@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/sillyy/.nvm/versions/node/v12.16.3/bin/node /Users/sillyy/.nvm/versions/node/v12.16.3/bin/yarn add -D sass
+
+PATH: 
+  /Users/sillyy/.nvm/versions/node/v12.16.3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/sillyy/.nvm/versions/node/v12.16.3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/sillyy/sdk/bin:/usr/local/mongoDB/bin:/Users/sillyy/sdk/bin:/usr/local/mongoDB/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/sillyy/Library/Caches/Yarn/v6/npm-color-convert-1.9.3-bb71850690e1f136567de629d2d5471deda4c1e8-integrity/node_modules/color-convert/LICENSE' -> '/Users/sillyy/WorkSpace/Repo/beauty/node_modules/chalk/node_modules/color-convert/LICENSE'
+
+npm manifest: 
+  {
+    "name": "beauty",
+    "version": "0.0.0",
+    "scripts": {
+      "start": "vite",
+      "dev": "vite",
+      "build": "vite build"
+    },
+    "dependencies": {
+      "vue": "^3.0.0-rc.1"
+    },
+    "devDependencies": {
+      "vite": "^1.0.0-rc.1",
+      "@vue/compiler-sfc": "^3.0.0-rc.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
