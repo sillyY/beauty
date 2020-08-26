@@ -1,9 +1,7 @@
 <template>
-  <div class="container">
     <button class="c-btn c-btn__1">
       <span>Read More</span>
     </button>
-  </div>
 </template>
 <script>
 export default {
@@ -14,13 +12,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background: #e0e5ec;
-}
 .c-btn {
   position: relative;
   display: inline-block;
